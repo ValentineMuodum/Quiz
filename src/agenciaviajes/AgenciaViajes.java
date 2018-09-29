@@ -41,7 +41,9 @@ public AgenciaViajes(String nombre,int noHoteles,int noViajes){
     public Viaje getViajes(int i) {
         return viajes[i];
     }
-
+ public Viaje[] getViajes() {
+        return viajes;
+    }
 void Listar(Viaje[] viajes){
     
     for(int i=0;i<viajes.length;i++){

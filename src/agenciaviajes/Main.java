@@ -17,13 +17,17 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    AgenciaViajes prueba=new AgenciaViajes("Aviatur", 1, 1);
+    AgenciaViajes prueba=new AgenciaViajes("Aviatur", 4, 4);
     prueba.getHoteles(0).setNombre("Fontanar");
     prueba.getHoteles(0).setDireccion("Cra. 21a #159a-28");
     prueba.getViajes(0).setInicio("22/03/2017");
     prueba.getViajes(0).setDuracion("30 minutos");
     prueba.getViajes(0).getSalida().setNoVuelo(1345);
-    
+    prueba.getViajes(0).getSalida().setSalida("22/03/2017");
+    prueba.getViajes(0).getSalida().setLlegada("22/03/2017");
+    prueba.getViajes(0).getSalida().getDesde().setDescripcion("José María Córdoba");
+    prueba.getViajes(0).getSalida().getHacia().setDescripcion("Aeropuerto el dorado");
+    prueba.Listar(prueba.getViajes());
     }
     
 }
