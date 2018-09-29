@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package agenciaviajes;
+
+/**
+ *
+ * @author Valentine Chimezie
+ */
+public class Aeropuerto {
+  private String Descripcion;  
+
+    public Aeropuerto(String Descripcion) {
+        this.Descripcion = Descripcion;
+    }
+
+    public String getDescripcion() {
+        return Descripcion;
+    }
+
+    public void setDescripcion(String Descripcion) {
+        this.Descripcion = Descripcion;
+    }
+
+
+
+}
